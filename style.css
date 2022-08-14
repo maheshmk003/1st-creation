@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   /* background-color:#53ff53;*/
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    border: #fc94ee 5px solid;
+    background-color: #5dfff7;
+    border-radius: 5px;
+    box-shadow: 10px 20px 25px rgba(0,0,0,.3);
+    overflow: hidden;
+   
+    max-width: 100%;
+
+}
+.mk{
+ border-bottom: 1px solid #fc94ee;
+    text-align: center;
+    padding: 20px 40px;
+}
+.mk h1{
+    cursor: pointer;
+    color:white;
+    text-align: center;
+}
+.mk h1 hover{
+    color: black;
+}
+.form{
+    text-align: center;
+    padding: 30px 40px;
+}
+.c1{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.c1 label{
+    font-style: italic;
+    font-size: 16px;
+    display: inline block;
+    margin-bottom: 5px;
+}
+.c1 input{
+    width: 100%;
+    text-align: center;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+}
+.c1 input:focus{
+    outline: none;
+    border-color: #777;
+}
+.c1.success input{
+    border-color: #2ecc71;
+}
+.c1.error input{
+    border-color: red;
+}
+.form button{
+    justify-items: center;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+border-radius: 4px;
+    padding: 8px 4px
+}
+h1 :hover{
+    color:black;
+}
+.c1 small{
+    color:red;
+    position: absolute;
+    left: 0;
+    bottom: o;
+    visibility:hidden;
+}
+.c1.error small{
+    visibility: visible;
+}
+
+
